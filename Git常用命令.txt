@@ -1,0 +1,30 @@
+Git常用命令小结
+
+1.创建版本库（repository）
+git init 目录名
+
+2.将文件添加到暂存区并提交至仓库
+git add 文件名
+git commit 文件名
+
+3.查看状态以及变化
+git status 查看是否还有文件未提交或者修改状态
+git diff 文件名  查看文件的变化
+
+4.查看日志
+git log 查看版本提交日志
+git log --pretty=oneline 精简查看日志
+git reflog 获取版本号
+
+5.版本回退
+git reset --hard HEAD^ 回退到上一个版本
+git reset --hard HEAD^^ 回退到上上个版本（以此类推）
+git reset --hard HEAD~100 回退到前100个版本
+git reset --hard 版本号 回退到某版本
+
+6.撤销修改
+git checkout -- 文件名 丢弃工作区的修改
+分两种情况：
+a.文件修改了未提交到暂存区，则恢复初始版本。
+b.文件修改且已提交到暂存区，接着又做了修改，则恢复到暂存区的版本。
+
