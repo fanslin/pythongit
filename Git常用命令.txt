@@ -28,3 +28,6 @@ git checkout -- 文件名 丢弃工作区的修改
 a.文件修改了未提交到暂存区，则恢复初始版本。
 b.文件修改且已提交到暂存区，接着又做了修改，则恢复到暂存区的版本。
 
+7.远程关联仓库
+git remote add origin https://github.com/fanslin/pythongit.git
+git push -u origin master  将主分支提交至远程仓库
