@@ -31,3 +31,7 @@ b.文件修改且已提交到暂存区，接着又做了修改，则恢复到暂
 7.远程关联仓库
 git remote add origin https://github.com/fanslin/pythongit.git
 git push -u origin master  将主分支提交至远程仓库
+
+8.克隆远程仓库
+git clone https://github.com/NARKOZ/hacker-scripts.git
+
