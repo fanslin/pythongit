@@ -37,4 +37,11 @@ git pull origin master  拉取远程仓库的变更至主分支
 8.克隆远程仓库
 git clone https://github.com/NARKOZ/hacker-scripts.git
 
-9.待续
+9.分支
+查看分支 git branch 
+创建分支 git branch <name>
+切换分支 git checkout <name>
+创建+切换分支 git checkout -b <name>
+合并分支到当前分支 git merge <name>
+删除分支 git branch -d <name>
+
