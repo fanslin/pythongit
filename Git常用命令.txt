@@ -47,4 +47,4 @@ git clone https://github.com/NARKOZ/hacker-scripts.git
 合并分支到当前分支 git merge <name>
 删除分支 git branch -d <name>
 查看分支图 git log --graph
-git push origin “本地分支名称:远程分支名称”将本地分支推送至远程仓库 
+git push origin "本地分支名称:远程分支名称"将本地分支推送至远程仓库
