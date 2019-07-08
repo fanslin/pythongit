@@ -66,4 +66,4 @@ git tag -d <tagname>可以删除一个本地标签；
 
 git push origin :refs/tags/<tagname>可以删除一个远程标签
 
-git checkout <tagname>指向打标签时的状态
+git checkout <tagname>指向打标签时的状态;
