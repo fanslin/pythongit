@@ -67,3 +67,12 @@ git tag -d <tagname>可以删除一个本地标签；
 git push origin :refs/tags/<tagname>可以删除一个远程标签
 
 git checkout <tagname>指向打标签时的状态;
+
+11.cherry-pick
+“挑拣”提交，它会获取某一个分支的单笔提交，并作为一个新的提交引入到当前分支上
+
+12.合并多次提交
+git rebase -i HEAD~4 合并最近的4次提交纪录
+分支合并
+git checkout -b feature1
+git rebase master
