@@ -45,6 +45,7 @@ git clone https://github.com/NARKOZ/hacker-scripts.git
 切换分支 git checkout <name>
 创建+切换分支 git checkout -b <name>
 合并分支到当前分支 git merge <name>
+git merge <name> --squash    # 这个--squash参数很重要，它把xx分支中的多次提交合并成一次提交，合并到当前分支上
 删除分支 git branch -d <name>
 查看分支图 git log --graph
 git push origin "本地分支名称:远程分支名称"将本地分支推送至远程仓库
