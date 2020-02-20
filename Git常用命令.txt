@@ -50,10 +50,15 @@ git clone https://github.com/NARKOZ/hacker-scripts.git
 创建+切换分支 git checkout -b <name>
 合并分支到当前分支 git merge <name>
 git merge <name> --squash    # 这个--squash参数很重要，它把xx分支中的多次提交合并成一次提交，合并到当前分支上
+
+git merge origin/develop --no-ff #记录提交信息
+
 删除分支 git branch -d <name>
 查看分支图 git log --graph
 git push origin "本地分支名称:远程分支名称"将本地分支推送至远程仓库
 删除远程分支 git push origin --delete <name>
+
+
 
 10.标签
 git tag <tagname>用于新建一个标签，默认为HEAD，也可以指定一个commit id；
