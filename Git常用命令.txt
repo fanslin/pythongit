@@ -22,6 +22,10 @@ git reset --hard HEAD^^ 回退到上上个版本（以此类推）
 git reset --hard HEAD~100 回退到前100个版本
 git reset --hard 版本号 回退到某版本
 
+强制还原到某个版本
+git reset --hard 594e1bce46539c4c54615faf9e784e46ef64
+git push -f -u origin master
+
 6.撤销修改
 git checkout -- 文件名 丢弃工作区的修改
 分两种情况：
